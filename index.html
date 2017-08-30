@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Arc</title>
+  <link rel="stylesheet" href="css/common.min.css">
+  <link rel="stylesheet" href="css/circle-menu.min.css">
+</head>
+<body>
+
+<nav class="c-circle-menu js-menu">
+  <button class="c-circle-menu__toggle js-menu-toggle">
+    <span>Toggle</span>
+  </button>
+  <ul class="c-circle-menu__items">
+    <li class="c-circle-menu__item">
+      <a href="#" class="c-circle-menu__link">
+        <img src="img/house.svg" alt="">
+      </a>
+    </li>
+    <li class="c-circle-menu__item">
+      <a href="#" class="c-circle-menu__link">
+        <img src="img/photo.svg" alt="">
+      </a>
+    </li>
+    <li class="c-circle-menu__item">
+      <a href="#" class="c-circle-menu__link">
+        <img src="img/pin.svg" alt="">
+      </a>
+    </li>
+    <li class="c-circle-menu__item">
+      <a href="#" class="c-circle-menu__link">
+        <img src="img/search.svg" alt="">
+      </a>
+    </li>
+    <li class="c-circle-menu__item">
+      <a href="#" class="c-circle-menu__link">
+        <img src="img/tools.svg" alt="">
+      </a>
+    </li>
+  </ul>
+  <div class="c-circle-menu__mask js-menu-mask"></div>
+</nav>
+
+<script src="js/dist/circleMenu.min.js"></script>
+<script>
+  var el = '.js-menu';
+  var myMenu = cssCircleMenu(el);
+</script>
+</body>
+</html>
